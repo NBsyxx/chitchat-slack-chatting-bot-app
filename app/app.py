@@ -11,7 +11,6 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 
 # open ai imports 
 import openai
-print(SLACK_APP_TOKEN)
 app = App(token=SLACK_BOT_TOKEN)
 openai.api_key = OPENAI_API_KEY
 
