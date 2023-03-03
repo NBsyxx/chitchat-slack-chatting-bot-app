@@ -13,7 +13,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Copy the application code into the container
 COPY app/ .
 
-# Set the environment variable for the Flask app
+# Set API tokens
 ENV SLACK_BOT_TOKEN = "xoxb-your-token"
 ENV SLACK_APP_TOKEN = "xapp-your-token" 
 ENV OPENAI_API_KEY = "sk-your-token"
