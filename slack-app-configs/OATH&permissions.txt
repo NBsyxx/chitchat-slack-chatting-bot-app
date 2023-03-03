@@ -1,0 +1,30 @@
+app_mentions:read
+View messages that directly mention @chitchat in conversations that the app is in
+
+channels:history
+View messages and other content in public channels that chitchat has been added to
+
+chat:write
+Send messages as @chitchat
+
+im:history
+View messages and other content in direct messages that chitchat has been added to
+
+im:read
+View basic information about direct messages that chitchat has been added to
+
+im:write
+Start direct messages with people
+
+mpim:history
+View messages and other content in group direct messages that chitchat has been added to
+
+mpim:write
+Start group direct messages with people
+
+pins:read
+View pinned content in channels and conversations that chitchat has been added to
+
+pins:write
+Add and remove pinned messages and files
+

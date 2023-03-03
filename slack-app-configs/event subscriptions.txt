@@ -1,0 +1,27 @@
+Subscribe to bot events
+Event Name	Description	Required Scope
+app_mention
+Subscribe to only the message events that mention your app or bot
+
+app_mentions:read
+
+im_history_changed
+Bulk updates were made to a DM's history
+
+im:history
+
+message.im
+A message was posted in a direct message channel
+
+im:history
+
+pin_added
+A pin was added to a channel
+
+pins:read
+
+pin_removed
+A pin was removed from a channel
+
+pins:read
+
